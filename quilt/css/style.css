@@ -1,0 +1,44 @@
+* { 
+  margin: 0;  
+}
+
+.mydiv {
+  background-color:cadetblue;
+  width: 100%;
+  height:100vh;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto; 
+  grid-template-rows: 120px 120px 120px 120px;
+  gap: 20px; 
+}
+
+.item {
+  background-color:#e6602e;
+  text-align: center;
+}
+
+.item2 {background-color:#65b5b8;
+  text-align: center;
+}
+
+
+.item3 {background-color:red;
+  text-align: center;
+  padding: 20px;
+  font-size: 45px;
+}
+
+.item4 {background-color:red;
+  text-align: right;
+  padding: 50px;
+  font-size: 45px;
+}
+
+
+.rabbit {
+ width:90px;
+ height:90px;
+ padding: 10px;
+}
