@@ -1,0 +1,63 @@
+p{
+    color: #616161;
+     font-size: 20px;
+     font-family: courier;
+     letter-spacing: 2px;
+     line-height: 24px;
+}
+.specialtext{
+    color:orange;
+     font-size: 20px;
+     font-family: courier;
+     letter-spacing: 2px;
+     line-height: 12px;
+}
+.textboxnormal{
+    width:900px;
+    height:250px;
+    background-color:#e8d4d4;
+    border: 2px;
+    border-color:#bf9494; 
+    border-width: medium;
+}
+
+.textboxchange {
+    width:900px;
+    height:250px;
+    background-color:#210505;
+    border: 2px;
+    border-color:#bf9494; 
+    border-width: medium;
+}
+
+body {
+    background-image: url("../img/background1.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+   }
+
+   .backgroundchange {
+    background-image: url("../img/endoftheline.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+   }
+
+   .backgroundtwo {
+    background-image: url("../img/background2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+   }
+
+   .final {
+    background-image: url(../img/lastpage.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+   }
