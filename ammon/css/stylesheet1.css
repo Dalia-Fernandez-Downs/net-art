@@ -1,0 +1,108 @@
+p{
+    color: #616161;
+     font-size: 20px;
+     font-family: courier;
+     letter-spacing: 2px;
+     line-height: 24px;
+}
+.specialtext{
+    color:orange;
+     font-size: 20px;
+     font-family: courier;
+     letter-spacing: 2px;
+     line-height: 12px;
+}
+.textboxnormal{
+
+    width:900px;
+    height:250px;
+    background-color:#e8d4d4;
+    box-shadow: 0 0 10px 10px #e8d4d4;
+    border: 2px;
+    border-color:#bf9494; 
+    border-width: medium;
+    float: left;
+}
+
+.textboxchange {
+
+    width:900px;
+    height:250px;
+    background-color:#210505;
+    box-shadow: 0 0 10px 10px #210505;
+    border: 2px;
+    border-color:#bf9494; 
+    border-width: medium;
+    float: right;
+}
+
+body {
+    background-image: url("../img/background1.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+   }
+
+   .backgroundchange {
+    background-image: url("../img/endoftheline.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+   }
+
+   .backgroundtwo {
+    background-image: url("../img/background2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+   }
+   .snow {
+    background-image: url("../img/snow.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+
+   }
+
+   .final {
+    background-image: url("../img/lastpage.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  
+   }
+img{
+    transition: width 1s linear 0.5s;
+}
+.angel1 {
+    float:right;
+}
+
+.angel2 {
+    float:left;
+}
+
+   img:hover {
+    width: 250px;
+  }
+
+h2{
+    text-align: center;
+    font-size: 80px;
+}
+h5{
+    float:left;
+}
+
+.wrong {
+-moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+}
